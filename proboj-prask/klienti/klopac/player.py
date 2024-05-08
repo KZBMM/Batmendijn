@@ -1,11 +1,11 @@
 import random
 from probojPlayer import ProbojPlayer
 from constants import *
+from unit import Unit
 
 OBRANASTAGE = 0
 INF = 10**9 - 1
-MIN_SAFE_DIST = 1
-UPGRADE_FORMATION = [(0, 0), (1, 0), (1, 1), (2, 1), (2, 2), (3, 2)] # NOT USED
+MIN_SAFE_DIST = 2
 ATTACK_FORMATION = [(0,)] * 5 + [(0, 1)] * 5 + [(2, 1, 2, 1, 1)] * 100
 DESIRED_LEVEL_INCOME = 3
 DESIRED_LEVEL_TURRET = 2
@@ -13,10 +13,6 @@ BAGER_SAFETY_NET = unit_cost[UnitType.BAGER.value] // 2
 ID_TO_UNIT = [UnitType.BAGER, UnitType.DVIHAK, UnitType.VALEC]
 ID_TO_COMMAND = [Command.BAGER, Command.DVIHAK, Command.VALEC]
 
-debug_file = open("mudry.debug", "w")
-def debug(*args):
-    debug_file.write(" ".join(map(str, args)) + "\n")
-    debug_file.flush()
 
 class MyPlayer(ProbojPlayer):
     """
@@ -47,14 +43,7 @@ class MyPlayer(ProbojPlayer):
         vzdialenost = min(i - u.attack_range for i, u in self.jeho_jednotky)
         maximalny_utok = max(unit_attack_dmg)
         cas = hp_moje / maximalny_utok + vzdialenost
-        debug(
-            "kolko_kol",
-            hp_moje,
-            hp_jeho,
-            vzdialenost,
-            maximalny_utok,
-            cas,
-        )
+        
         return cas
 
     def kolko_mozem_minut_bez_ohrozenia_domceka(self):
@@ -63,24 +52,12 @@ class MyPlayer(ProbojPlayer):
             return INF
         if cas <= MIN_SAFE_DIST:
             return -1
-        debug("kolko_mozem", cas, self.money, self.income_lvl)
         peniaze = self.money + income[self.income_lvl] * cas
         mozem_minut = max(0, peniaze - unit_cost[UnitType.BAGER.value])
         return mozem_minut
     
     
-    def Obrana():
-        global OBRANASTAGE
-        OBRANASTAGE += 1
-        if OBRANASTAGE == 3:
-            OBRANASTAGE = 0
-
-        if OBRANASTAGE == 0:
-            return Command.BAGER
-        elif OBRANASTAGE == 1:
-            return Command.BAGER
-        elif OBRANASTAGE == 2:
-            return Command.DVIHAK
+    def Gregor():
         
         
 
@@ -101,6 +78,9 @@ class MyPlayer(ProbojPlayer):
     
     
     
+    def ultimate_strategia():
+        pass
+        
     
     
     def make_turn(self) -> Command:
