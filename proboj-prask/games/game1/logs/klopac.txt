@@ -1,5 +1,13 @@
 [proboj] 
-[proboj] killing process due to read timeout
+pla
+Traceback (most recent call last):
+  File "C:\Users\horuc\OneDrive\Dokumenty\Prask\SEXYBOT2\Batmendijn\proboj-prask\klienti\klopac\player.py", line 119, in <module>
+    p.run()
+  File "C:\Users\horuc\OneDrive\Dokumenty\Prask\SEXYBOT2\Batmendijn\proboj-prask\klienti\klopac\probojPlayer.py", line 34, in run
+    turn: Command = self.make_turn()
+  File "C:\Users\horuc\OneDrive\Dokumenty\Prask\SEXYBOT2\Batmendijn\proboj-prask\klienti\klopac\player.py", line 98, in make_turn
+    stratoska = self.strategia()
+TypeError: MyPlayer.strategia() takes 0 positional arguments but 1 was given
 [proboj] process terminated
  exit: 1
  err: <nil>
