@@ -1,9 +1,5 @@
-Traceback (most recent call last):
-  File "C:\Users\horuc\OneDrive\Dokumenty\Prask\SEXY_ROBOT\Batmendijn\proboj-prask\klienti\klopac\player.py", line 21, in <module>
-    class MyPlayer(ProbojPlayer):
-  File "C:\Users\horuc\OneDrive\Dokumenty\Prask\SEXY_ROBOT\Batmendijn\proboj-prask\klienti\klopac\player.py", line 29, in MyPlayer
-    moje_jednotky: list[tuple[int, Unit]]
-NameError: name 'Unit' is not defined
+[proboj] 
+[proboj] killing process due to read timeout
 [proboj] process terminated
  exit: 1
  err: <nil>
