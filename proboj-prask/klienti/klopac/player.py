@@ -68,25 +68,20 @@ class MyPlayer(ProbojPlayer):
         mozem_minut = max(0, peniaze - unit_cost[UnitType.BAGER.value])
         return mozem_minut
     
-
-    def strategia():
-        pass
     
     def Obrana():
+        Command.BAGER
+
+
+    def Utok():
+        Command.VALEC
+
+
+    def Risky_Strategia():
         pass
 
-
-    def Rudko_je_najsamsuper():
-        pass
-
-
-    def Super_Vilko():
-        pass
-
-    def Krivos():
-        
-        
-        pass
+    def strategia():
+        Command.DVIHAK
     
     
     
@@ -96,6 +91,7 @@ class MyPlayer(ProbojPlayer):
         """
         Túto funkciu máte naprogramovať
         """        
+        self.strategia()
         return
 
 if __name__ == "__main__":
