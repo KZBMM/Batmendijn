@@ -76,11 +76,16 @@ class MyPlayer(ProbojPlayer):
         pass
 
 
-    def Utok():
+    def Rudko_je_najsamsuper():
         pass
 
 
-    def Risky_Strategia():
+    def Super_Vilko():
+        pass
+
+    def Krivos():
+        
+        
         pass
     
     
