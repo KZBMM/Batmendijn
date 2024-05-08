@@ -1,46 +1,12 @@
-seed is 1715191498
+seed is 1715192333
 (0,)
 (0,)
 ['humanL 200 0 0 False False False 0', 'humanR 200 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
 NEW TURN 1
 ()
-humanL responded in 1.1ms with 0
+humanL responded in 0.7ms with 0
 ()
-humanR responded in 0.7ms with 0
-try
-player action NONE humanL
-try
-player action NONE humanR
-0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-('0',)
-('0',)
-server done in 0.7ms
-waiting 31.270265579223633 ms
-['humanL 204 0 0 False False False 0', 'humanR 204 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 40.7ms
-NEW TURN 2
-()
-humanL responded in 0.1ms with 0
-()
-humanR responded in 0.7ms with 0
-try
-player action NONE humanL
-try
-player action NONE humanR
-0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-('0',)
-('0',)
-server done in 0.6ms
-waiting 42.913198471069336 ms
-['humanL 208 0 0 False False False 0', 'humanR 208 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 60.2ms
-NEW TURN 3
-()
-humanL responded in 0.0ms with 0
-()
-humanR responded in 0.7ms with 0
+humanR responded in 0.6ms with 0
 try
 player action NONE humanL
 try
@@ -50,9 +16,43 @@ player action NONE humanR
 ('0',)
 ('0',)
 server done in 0.0ms
-waiting 44.966697692871094 ms
+waiting 34.914493560791016 ms
+['humanL 204 0 0 False False False 0', 'humanR 204 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 44.9ms
+NEW TURN 2
+()
+humanL responded in 0.0ms with 0
+()
+humanR responded in 0.6ms with 0
+try
+player action NONE humanL
+try
+player action NONE humanR
+0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+('0',)
+('0',)
+server done in 0.1ms
+waiting 42.774200439453125 ms
+['humanL 208 0 0 False False False 0', 'humanR 208 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 61.4ms
+NEW TURN 3
+()
+humanL responded in 1.2ms with 0
+()
+humanR responded in 0.2ms with 0
+try
+player action NONE humanL
+try
+player action NONE humanR
+0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+('0',)
+('0',)
+server done in 1.0ms
+waiting 40.866851806640625 ms
 ['humanL 212 0 0 False False False 0', 'humanR 212 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 61.9ms
+observer done in 57.7ms
 NEW TURN 4
 ()
 humanL responded in 0.6ms with 0
@@ -67,12 +67,80 @@ player action NONE humanR
 ('0',)
 ('0',)
 server done in 0.6ms
-waiting 43.5328483581543 ms
+waiting 44.74306106567383 ms
 ['humanL 216 0 0 False False False 0', 'humanR 216 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 65.3ms
+observer done in 64.6ms
 NEW TURN 5
 ()
 humanL responded in 0.6ms with 0
+()
+humanR responded in 0.0ms with 0
+try
+player action NONE humanL
+try
+player action NONE humanR
+0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+('0',)
+('0',)
+server done in 0.0ms
+waiting 42.57464408874512 ms
+['humanL 220 0 0 False False False 0', 'humanR 220 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 62.9ms
+NEW TURN 6
+()
+humanL responded in 0.3ms with 0
+()
+humanR responded in 0.3ms with 0
+try
+player action NONE humanL
+try
+player action NONE humanR
+0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+('0',)
+('0',)
+server done in 0.0ms
+waiting 40.627479553222656 ms
+['humanL 224 0 0 False False False 0', 'humanR 224 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 58.0ms
+NEW TURN 7
+()
+humanL responded in 0.6ms with 0
+()
+humanR responded in 0.0ms with 0
+try
+player action NONE humanL
+try
+player action NONE humanR
+0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+('0',)
+('0',)
+server done in 0.9ms
+waiting 44.05093193054199 ms
+['humanL 228 0 0 False False False 0', 'humanR 228 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 63.0ms
+NEW TURN 8
+()
+humanL responded in 0.6ms with 0
+()
+humanR responded in 0.3ms with 0
+try
+player action NONE humanL
+try
+player action NONE humanR
+0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+('0',)
+('0',)
+server done in 0.3ms
+waiting 43.0908203125 ms
+['humanL 232 0 0 False False False 0', 'humanR 232 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 60.7ms
+NEW TURN 9
+()
+humanL responded in 0.9ms with 0
 ()
 humanR responded in 0.6ms with 0
 try
@@ -83,13 +151,115 @@ player action NONE humanR
 31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
 ('0',)
 ('0',)
-server done in 0.9ms
-waiting 38.449764251708984 ms
-['humanL 220 0 0 False False False 0', 'humanR 220 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 55.2ms
-NEW TURN 6
+server done in 0.0ms
+waiting 44.23093795776367 ms
+['humanL 236 0 0 False False False 0', 'humanR 236 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 64.1ms
+NEW TURN 10
 ()
-humanL responded in 1.3ms with 0
+humanL responded in 0.1ms with 0
+()
+humanR responded in 0.0ms with 0
+try
+player action NONE humanL
+try
+player action NONE humanR
+0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+('0',)
+('0',)
+server done in 0.7ms
+waiting 42.203664779663086 ms
+['humanL 240 0 0 False False False 0', 'humanR 240 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 63.7ms
+NEW TURN 11
+()
+humanL responded in 0.5ms with 0
+()
+humanR responded in 0.1ms with 0
+try
+player action NONE humanL
+try
+player action NONE humanR
+0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+('0',)
+('0',)
+server done in 0.0ms
+waiting 40.55476188659668 ms
+['humanL 244 0 0 False False False 0', 'humanR 244 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 57.5ms
+NEW TURN 12
+()
+humanL responded in 0.5ms with 0
+()
+humanR responded in 0.0ms with 0
+try
+player action NONE humanL
+try
+player action NONE humanR
+0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+('0',)
+('0',)
+server done in 0.6ms
+waiting 44.93570327758789 ms
+['humanL 248 0 0 False False False 0', 'humanR 248 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 61.0ms
+NEW TURN 13
+()
+humanL responded in 0.7ms with 0
+()
+humanR responded in 0.7ms with 0
+try
+player action NONE humanL
+try
+player action NONE humanR
+0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+('0',)
+('0',)
+server done in 0.0ms
+waiting 44.21186447143555 ms
+['humanL 252 0 0 False False False 0', 'humanR 252 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 62.3ms
+NEW TURN 14
+()
+humanL responded in 0.3ms with 0
+()
+humanR responded in 0.7ms with 0
+try
+player action NONE humanL
+try
+player action NONE humanR
+0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+('0',)
+('0',)
+server done in 0.6ms
+waiting 43.25079917907715 ms
+['humanL 256 0 0 False False False 0', 'humanR 256 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 65.1ms
+NEW TURN 15
+()
+humanL responded in 0.0ms with 0
+()
+humanR responded in 0.6ms with 0
+try
+player action NONE humanL
+try
+player action NONE humanR
+0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
+('0',)
+('0',)
+server done in 0.0ms
+waiting 37.931203842163086 ms
+['humanL 260 0 0 False False False 0', 'humanR 260 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 56.5ms
+NEW TURN 16
+()
+humanL responded in 0.0ms with 0
 ()
 humanR responded in 0.8ms with 0
 try
@@ -100,98 +270,13 @@ player action NONE humanR
 31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
 ('0',)
 ('0',)
-server done in 0.6ms
-waiting 42.51432418823242 ms
-['humanL 224 0 0 False False False 0', 'humanR 224 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 57.9ms
-NEW TURN 7
+server done in 0.7ms
+waiting 42.88029670715332 ms
+['humanL 264 0 0 False False False 0', 'humanR 264 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
+observer done in 108.0ms
+NEW TURN 17
 ()
-humanL responded in 0.1ms with 0
-()
-humanR responded in 0.6ms with 0
-try
-player action NONE humanL
-try
-player action NONE humanR
-0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-('0',)
-('0',)
-server done in 0.0ms
-waiting 45.09401321411133 ms
-['humanL 228 0 0 False False False 0', 'humanR 228 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 64.1ms
-NEW TURN 8
-()
-humanL responded in 0.0ms with 0
-()
-humanR responded in 0.6ms with 0
-try
-player action NONE humanL
-try
-player action NONE humanR
-0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-('0',)
-('0',)
-server done in 0.6ms
-waiting 41.79501533508301 ms
-['humanL 232 0 0 False False False 0', 'humanR 232 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 59.2ms
-NEW TURN 9
-()
-humanL responded in 0.7ms with 0
-()
-humanR responded in 0.7ms with 0
-try
-player action NONE humanL
-try
-player action NONE humanR
-0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-('0',)
-('0',)
-server done in 0.0ms
-waiting 43.16234588623047 ms
-['humanL 236 0 0 False False False 0', 'humanR 236 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 62.9ms
-NEW TURN 10
-()
-humanL responded in 0.0ms with 0
-()
-humanR responded in 0.9ms with 0
-try
-player action NONE humanL
-try
-player action NONE humanR
-0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-('0',)
-('0',)
-server done in 0.4ms
-waiting 40.847063064575195 ms
-['humanL 240 0 0 False False False 0', 'humanR 240 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 59.7ms
-NEW TURN 11
-()
-humanL responded in 0.0ms with 0
-()
-humanR responded in 0.6ms with 0
-try
-player action NONE humanL
-try
-player action NONE humanR
-0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-('0',)
-('0',)
-server done in 0.0ms
-waiting 43.558359146118164 ms
-['humanL 244 0 0 False False False 0', 'humanR 244 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 73.0ms
-NEW TURN 12
-()
-humanL responded in 1.5ms with 0
+humanL responded in 0.6ms with 0
 ()
 humanR responded in 1.3ms with 0
 try
@@ -202,92 +287,7 @@ player action NONE humanR
 31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
 ('0',)
 ('0',)
-server done in 0.7ms
-waiting 29.712677001953125 ms
-['humanL 248 0 0 False False False 0', 'humanR 248 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 46.5ms
-NEW TURN 13
-()
-humanL responded in 0.0ms with 0
-()
-humanR responded in 0.6ms with 0
-try
-player action NONE humanL
-try
-player action NONE humanR
-0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-('0',)
-('0',)
-server done in 1.1ms
-waiting 42.69003868103027 ms
-['humanL 252 0 0 False False False 0', 'humanR 252 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 60.4ms
-NEW TURN 14
-()
-humanL responded in 0.0ms with 0
-()
-humanR responded in 0.0ms with 0
-try
-player action NONE humanL
-try
-player action NONE humanR
-0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-('0',)
-('0',)
-server done in 1.0ms
-waiting 44.96145248413086 ms
-['humanL 256 0 0 False False False 0', 'humanR 256 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 60.1ms
-NEW TURN 15
-()
-humanL responded in 0.3ms with 0
-()
-humanR responded in 0.6ms with 0
-try
-player action NONE humanL
-try
-player action NONE humanR
-0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-('0',)
-('0',)
-server done in 0.0ms
-waiting 45.00555992126465 ms
-['humanL 260 0 0 False False False 0', 'humanR 260 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 62.9ms
-NEW TURN 16
-()
-humanL responded in 0.0ms with 0
-()
-humanR responded in 0.0ms with 0
-try
-player action NONE humanL
-try
-player action NONE humanR
-0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-('0',)
-('0',)
-server done in 0.0ms
-waiting 44.844627380371094 ms
-['humanL 264 0 0 False False False 0', 'humanR 264 0 0 False False False 0', 'humanL 2000 2000 0', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'None', 'humanR 2000 2000 0']
-observer done in 170.3ms
-NEW TURN 17
-()
-humanL responded in 0.7ms with 0
-()
-humanR responded in 0.7ms with 0
-try
-player action NONE humanL
-try
-player action NONE humanR
-0 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-31 [None, None] [U(UnitType.TURRET, humanL, hp=2000, mc=0, ac=33, ar=2, ad=5), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, U(UnitType.TURRET, humanR, hp=2000, mc=0, ac=33, ar=2, ad=5)]
-('0',)
-('0',)
-server done in 0.7ms
+server done in 0.2ms
 Traceback (most recent call last):
   File "C:\Users\horuc\OneDrive\Dokumenty\Prask\SEXYBOT2\Batmendijn\proboj-prask\server\server.py", line 107, in <module>
     main()

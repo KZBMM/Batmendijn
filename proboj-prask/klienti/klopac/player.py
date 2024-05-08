@@ -36,17 +36,15 @@ class MyPlayer(ProbojPlayer):
         """        
         stratoska = 2
         max = 5
-        pocet_nepriatelov = 0
         zoznwm = self.world
         for i in range(0, len(zoznwm)-1):
             jednotka = zoznwm[i]
             if jednotka is not None:
                 if not jednotka.owner == self.name:
-                    pocet_nepriatelov += 1
-                    if i < 10:
-                        stratoska = 2
-                    elif pocet_nepriatelov > 0:
-                        stratoska = 4
+                    if i == 15:
+                        return Command.VALEC
+                    elif i == 15:
+                        return Command.VALEC
                     else:
                         stratoska = 1
 
