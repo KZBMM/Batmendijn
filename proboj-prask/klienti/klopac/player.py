@@ -2,7 +2,7 @@ import random
 from probojPlayer import ProbojPlayer
 from constants import *
 
-
+OBRANASTAGE = 0
 INF = 10**9 - 1
 MIN_SAFE_DIST = 1
 UPGRADE_FORMATION = [(0, 0), (1, 0), (1, 1), (2, 1), (2, 2), (3, 2)] # NOT USED
@@ -70,7 +70,19 @@ class MyPlayer(ProbojPlayer):
     
     
     def Obrana():
-        Command.BAGER
+        global OBRANASTAGE
+        OBRANASTAGE += 1
+        if OBRANASTAGE == 3:
+            OBRANASTAGE = 0
+
+        if OBRANASTAGE == 0:
+            return Command.BAGER
+        elif OBRANASTAGE == 1:
+            return Command.BAGER
+        elif OBRANASTAGE == 2:
+            return Command.DVIHAK
+        
+        
 
     def Krivos():
         pass
@@ -96,8 +108,6 @@ class MyPlayer(ProbojPlayer):
         Túto funkciu máte naprogramovať
         """        
         stratoska = self.strategia()
-        
-        
         
         if stratoska == 1:
             self.Obrana()    
