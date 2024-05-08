@@ -55,20 +55,7 @@ class MyPlayer(ProbojPlayer):
         peniaze = self.money + income[self.income_lvl] * cas
         mozem_minut = max(0, peniaze - unit_cost[UnitType.BAGER.value])
         return mozem_minut
-    
-    
-    def Gregor(self):
-        pocet_nepriatelov = 0
-        mozem_minut = self.kolko_mozem_minut_bez_ohrozenia_domceka()
-        mam_casu = self.kolko_kol_protivnik_pride_k_nasemu_domceku()
-        list = self.world
-        for jednotka in list:
-            if not jednotka.owner == self.name:
-                pocet_nepriatelov += 1
-        if mam_casu < 10:
-            return 3
-        if mam_casu > 10:
-            return 1
+
             
         
         
@@ -80,30 +67,27 @@ class MyPlayer(ProbojPlayer):
         """
         Túto funkciu máte naprogramovať
         """        
-        stratoska = self.Gregor()
+        stratoska = 2
         
+        pocet_nepriatelov = 0
+        list = self.world
+        for i in range(0, len(list)-1):
+            jednotka = list[i]
+            if not jednotka.owner == self.name:
+                pocet_nepriatelov += 1
+        
+        if pocet_nepriatelov > 1:
+            stratoska = 2
+        else:
+            stratoska = 1
+
         if stratoska == 1:
-            return Command.INCOME
-            
-        if stratoska == 2:
-            return Command.BAGER
-            
-        if stratoska == 3:
-            list = self.world
-            mirrorUnit = ""
-            for jednotka in list:
-                if not jednotka.owner == self.name:
-                    mirrorUnit = jednotka
-                    break
-            if mirrorUnit.type == 1:
-                return Command.BAGER
-            elif mirrorUnit.type == 2:
-                return Command.DVIHAK
-            elif mirrorUnit.type == 3:
-                return Command.VALEC
-                    
-            
-        if stratoska == 4:
+            return Command.INCOME    
+        elif stratoska == 2:
+            return Command.DVIHAK       
+        elif stratoska == 3:
+            return Command.BAGER  
+        elif stratoska == 4:
             ##self.Rudko_je_najsamsuper()
             Command.VALEC
            
