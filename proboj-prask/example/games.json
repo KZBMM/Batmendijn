@@ -1,7 +1,7 @@
 [
   {
     "gamefolder": "games/game1",
-    "players": ["humanL", "humanR"],
+    "players": ["klopac", "humanR"],
     "args": "observe"
   },
   {
