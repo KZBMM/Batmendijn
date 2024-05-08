@@ -57,29 +57,22 @@ class MyPlayer(ProbojPlayer):
         return mozem_minut
     
     
-    def Gregor():
+    def Gregor(self):
+        pocet_nepriatelov = 0
+        mozem_minut = self.kolko_mozem_minut_bez_ohrozenia_domceka()
+        mam_casu = self.kolko_kol_protivnik_pride_k_nasemu_domceku()
+        list = self.world
+        for jednotka in list:
+            if not jednotka.owner == self.name:
+                pocet_nepriatelov += 1
+        if mam_casu < 10:
+            return 3
+        if mam_casu > 10:
+            return 1
+            
         
         
 
-    def Krivos():
-        pass
-    
-    
-    
-    def Rudko_je_najsamsuper():
-        Command.VALEC
-
-
-    def Super_Vilko():
-        pass
-
-    def strategia():
-        return 1
-    
-    
-    
-    def ultimate_strategia():
-        pass
         
     
     
@@ -87,16 +80,32 @@ class MyPlayer(ProbojPlayer):
         """
         Túto funkciu máte naprogramovať
         """        
-        stratoska = self.strategia()
+        stratoska = self.Gregor()
         
         if stratoska == 1:
-            self.Obrana()    
+            return Command.INCOME
+            
         if stratoska == 2:
-            self.Krivos() 
+            return Command.BAGER
+            
         if stratoska == 3:
-            self.Super_Vilko()
+            list = self.world
+            mirrorUnit = ""
+            for jednotka in list:
+                if not jednotka.owner == self.name:
+                    mirrorUnit = jednotka
+                    break
+            if mirrorUnit.type == 1:
+                return Command.BAGER
+            elif mirrorUnit.type == 2:
+                return Command.DVIHAK
+            elif mirrorUnit.type == 3:
+                return Command.VALEC
+                    
+            
         if stratoska == 4:
-            self.Rudko_je_najsamsuper()
+            ##self.Rudko_je_najsamsuper()
+            Command.VALEC
            
         
         
