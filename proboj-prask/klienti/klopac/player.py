@@ -1,6 +1,23 @@
 import random
 from probojPlayer import ProbojPlayer
 from constants import *
+
+
+INF = 10**9 - 1
+MIN_SAFE_DIST = 1
+UPGRADE_FORMATION = [(0, 0), (1, 0), (1, 1), (2, 1), (2, 2), (3, 2)] # NOT USED
+ATTACK_FORMATION = [(0,)] * 5 + [(0, 1)] * 5 + [(2, 1, 2, 1, 1)] * 100
+DESIRED_LEVEL_INCOME = 3
+DESIRED_LEVEL_TURRET = 2
+BAGER_SAFETY_NET = unit_cost[UnitType.BAGER.value] // 2
+ID_TO_UNIT = [UnitType.BAGER, UnitType.DVIHAK, UnitType.VALEC]
+ID_TO_COMMAND = [Command.BAGER, Command.DVIHAK, Command.VALEC]
+
+debug_file = open("mudry.debug", "w")
+def debug(*args):
+    debug_file.write(" ".join(map(str, args)) + "\n")
+    debug_file.flush()
+
 class MyPlayer(ProbojPlayer):
     """
     self.name: str
@@ -51,10 +68,9 @@ class MyPlayer(ProbojPlayer):
         mozem_minut = max(0, peniaze - unit_cost[UnitType.BAGER.value])
         return mozem_minut
     
-    
-    def kde_su():
 
-    
+    def strategia():
+        pass
     
     def Obrana():
         pass

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\horuc\OneDrive\Dokumenty\Prask\SEXY_ROBOT\Batmendijn\proboj-prask\klienti\hlupy\player.py", line 2, in <module>
+    from probojPlayer import ProbojPlayer
+  File "C:\Users\horuc\OneDrive\Dokumenty\Prask\SEXY_ROBOT\Batmendijn\proboj-prask\klienti\hlupy\probojPlayer.py", line 5, in <module>
+    from unit import Unit, UnitType
+  File "C:\Users\horuc\OneDrive\Dokumenty\Prask\SEXY_ROBOT\Batmendijn\proboj-prask\klienti\hlupy\unit.py", line 1, in <module>
+    from constants import UnitType
+  File "C:\Users\horuc\OneDrive\Dokumenty\Prask\SEXY_ROBOT\Batmendijn\proboj-prask\klienti\hlupy\constants.py", line 1
+    ../../server/constants.py
+    ^
+SyntaxError: invalid syntax
+[proboj] process terminated
+ exit: 1
+ err: <nil>
