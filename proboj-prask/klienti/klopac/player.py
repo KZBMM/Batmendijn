@@ -72,16 +72,20 @@ class MyPlayer(ProbojPlayer):
     def Obrana():
         Command.BAGER
 
-
-    def Utok():
+    def Krivos():
+        pass
+    
+    
+    
+    def Rudko_je_najsamsuper():
         Command.VALEC
 
 
-    def Risky_Strategia():
+    def Super_Vilko():
         pass
 
     def strategia():
-        Command.DVIHAK
+        return 1
     
     
     
@@ -91,8 +95,26 @@ class MyPlayer(ProbojPlayer):
         """
         Túto funkciu máte naprogramovať
         """        
-        self.strategia()
-        return
+        stratoska = self.strategia()
+        
+        
+        
+        if stratoska == 1:
+            self.Obrana()    
+        if stratoska == 2:
+            self.Krivos() 
+        if stratoska == 3:
+            self.Super_Vilko()
+        if stratoska == 4:
+            self.Rudko_je_najsamsuper()
+           
+        
+        
+        
+        
+        
+
+        
 
 if __name__ == "__main__":
     p = MyPlayer()
